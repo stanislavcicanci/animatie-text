@@ -63,7 +63,7 @@ const App = () => {
       ))}
       <br></br>
       {Array.from('RANDOM TEXT THAT WILL HASAVER MEANING LATER').map((char, index) => (
-        <span key={index} className="char w-[1648px] text-stone-950 text-[42.5px] font-normal ">{char}</span>
+        <span key={index} className="char w-[80%]  text-stone-950 text-[42.5px] font-normal ">{char}</span>
       ))}
     </motion.div>
   );
